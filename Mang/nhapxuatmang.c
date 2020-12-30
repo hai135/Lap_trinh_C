@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    //khai báo mảng
+    
 
     /* 
-    
-    <kiểu dữ liệu> <tên mảng>[số lượng phần tử];
+    -khai báo mảng
+
+            <kiểu dữ liệu> <tên mảng>[số lượng phần tử];
     
     - ví dụ:    
     
@@ -70,16 +71,18 @@ int main()
 }
 
 /*
-    for(int i=0; i<n-1; i++)
-    {
-        for(int j=i+1; j<n; j++)
+    - sắp xếp mảng
+
+        for(int i=0; i<n-1; i++)
         {
-            if(a[i] > a[j])
+            for(int j=i+1; j<n; j++)
             {
-                int temp = a[i];
-                    a[i] = a[j];
-                    a[j] = temp;
+                if(a[i] > a[j])
+                {
+                    int temp = a[i];
+                        a[i] = a[j];
+                        a[j] = temp;
+                }
             }
         }
-    }
 */
