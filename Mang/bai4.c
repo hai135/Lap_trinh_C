@@ -1,3 +1,11 @@
+/*
+nhập một mảng bất kì. kiểm tra xem mảng đó đã được sắp xếp 
+theo dạng từ lớn đến bé hoặc từ bé đến lớn hay chưa.
+
+	(+)nếu đã sắp xếp in ra màn hình: sorted
+	(+)nếu không in ra màn hình: unsorted
+*/
+
 #include<stdio.h>
 int main(){
     int a[100],n,tang=1,giam=1;

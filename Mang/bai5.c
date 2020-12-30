@@ -1,3 +1,7 @@
+/*
+cho một mảng ktra xem số phần tử chẵn có bằng số phần tử lẻ không,
+nếu không nhập cho đến khi số phần tử chẵn bằng số phần tử lẻ.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
