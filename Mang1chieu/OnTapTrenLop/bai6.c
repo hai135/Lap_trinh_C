@@ -7,6 +7,9 @@
 	4. kết thúc chương trình
 */
 #include<stdio.h>
+#include<windows.h>
+#include<stdlib.h>
+#include<conio.h>
 int main(){
     int a[100],n,chon,x,k;
     printf("Nhap n: ");
@@ -16,6 +19,8 @@ int main(){
         scanf("%d",&a[i]);
     }
     while(1){
+        system("cls");
+
         printf("1. Them 1 phan tu o vi tri k\n");
         printf("2. Sua 1 phan tu o vi tri k\n");
         printf("3. Xoa 1 phan tu o vi tri k\n");
@@ -36,6 +41,7 @@ int main(){
                 a[k]=x;
                 n++;
 
+                printf("Mang sau khi them\n");
                 for(int i=0;i<n;i++){
                     printf("%d ",a[i]);
                 }
@@ -46,6 +52,12 @@ int main(){
                 printf("Nhap gia tri va vi tri muon sua: ");
                 scanf("%d%d",&x,&k);
                 a[k]=x;
+
+                printf("Mang sau khi sua\n");
+                for(int i=0;i<n;i++){
+                    printf("%d ",a[i]);
+                }
+                printf("\n");
                 break;
             case 3:
                 printf("Nhap vi tri xoa: ");
@@ -57,9 +69,17 @@ int main(){
 
                 n--;
 
+                printf("Mang sau khi xoa\n");
                 for(int i=0;i<n;i++){
                     printf("%d ",a[i]);
                 }
+                break;
+            case 4:
+                exit(0);
+            default:
+                printf("Chon tu 1->4\n");
         }
+        system("pause");
+
     }
 }

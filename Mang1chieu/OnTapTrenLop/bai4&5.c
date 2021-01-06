@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-
+    
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
             if(a[i]>a[j]){
@@ -18,6 +18,7 @@ int main(){
         }
     }
 
+    printf("Phan tu lon thu 2 cua mang la: ");
     for(int i=n-1;i>=0;i--){
         if(a[i]!=a[n-1]){
             printf("%d ",a[i]);
@@ -25,6 +26,7 @@ int main(){
         }
     }
 
+    printf("\nPhan tu nho thu 2 cua mang la: ");
     for(int i=0;i<n;i++){
         if(a[i]!=a[0]){
             printf("%d ",a[i]);

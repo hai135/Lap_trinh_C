@@ -8,7 +8,7 @@ int main(){
 
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(sqrt(a[i])*sqrt(a[i])==a[i]){
+        if((int)sqrt(a[i])*(int)sqrt(a[i])==a[i]){
             count++;
         }
     }
