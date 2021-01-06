@@ -13,5 +13,5 @@
 8*.Nhập mảng n số nguyên x (0 <= x <= 99). in ra tổng số lần xuất hiện nhiều nhất của 2 số a,b ( |a-b|<=1 )
 
 VD: 1 3 9 4 1 1 3 3 9 9 9 1 3 9 9 3 3 3
-Output : 6
+Output : 8
 giải thích : số 1 xuất hiện 4 lần , số 2 xuất hiện 4 lần . 4+4=8 và |1-2|<=1
