@@ -100,10 +100,11 @@ int main() {
         for (int j=0;j<n;j++)
         {
             int f=1;
-            if (a[i][j]==2)
-                break;
+            
             for (int x = 2; x < a[i][j]; x++)
             {
+                if (a[i][j]==2)
+                break;
                 if (a[i][j] % x == 0)
                 {
                     f=0;
@@ -112,7 +113,7 @@ int main() {
             }
             if (f == 1)
             {
-                printf("%4d",a[i][j]);
+                printf("snt %4d",a[i][j]);
             }
         }
     }
